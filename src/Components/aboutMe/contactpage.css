@@ -1,0 +1,133 @@
+.contact{
+    
+    color:white;
+    padding:0 10rem;
+}
+.contact>span{
+    color:dodgerblue;
+}
+.header{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.header>p{
+    font-size: 17px;
+    padding:0 10rem;
+    color:gray;
+}
+.mobileicon{
+    padding:0 8rem;
+    font-size: 27px;
+    color:dodgerblue;
+
+}
+.mobile_number{
+    padding-left:8rem;
+    color:white;
+    font-size: 20px;
+
+}
+.mobile_num_para{
+    padding-left:8rem;
+    color:white;
+    font-size: 15px;
+    color:#555555
+}
+.input-field{
+    width:20rem;
+    
+    margin-bottom:3rem ;
+    margin-left: 30px;
+    height: 2.5rem;
+    
+   
+    padding-left: 10px;
+    border:2px solid gray;
+    border-radius: 7px;
+    background-color: #222222;
+}
+
+textarea{
+    border:2px solid gray;
+    border-radius: 10px;
+    background-color: #222222;
+    
+    
+}
+.submit-button{
+    margin-left: 6rem;
+    width:10rem;
+    border: 3px solid dodgerblue;
+    border-radius: 20px;
+    background-color: #555555;
+    padding:5px;
+    padding-top: 10px 10px  ;
+    color:white;
+    
+    
+}
+
+.submit-button:hover{
+    background-color: dodgerblue;
+    
+}
+.input_heading>span{
+    color:dodgerblue;
+}
+.last-part{
+    margin-top: 10rem;
+    color:white;
+    background-color: #333333;
+    
+}
+
+.social{
+    display:flex;
+    color:#888888
+}
+
+.sites{
+    display:flex;
+    
+}
+.sites>a{
+    padding-left: 2rem;
+    list-style-type:none;
+    color:#888888;
+    
+}
+.social>p{
+    padding-left: 60rem;
+}
+.sites:hover{
+    text-decoration: none;
+    color:#888888;
+}
+.last-part>hr{
+    background-color: #888888;
+}
+
+@media (max-width:900px){
+    .contactInfo{
+        margin-left:-8rem;
+        margin-top: 1rem;
+    }
+    .input-section{
+        margin-top: 3rem;
+        margin-left:8rem;
+    }
+    .submit-button{
+        position: relative;
+        top:15rem ;
+    }
+    .input-field{
+        margin-top: -3rem;
+    }
+    .sites{
+        display:flex;
+        justify-content: center;
+    }
+    
+}

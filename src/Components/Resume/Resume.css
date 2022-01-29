@@ -1,0 +1,63 @@
+.Resume>h2{
+    color:white;
+}
+.Resume>h2>span{
+    color:dodgerblue;
+}
+.education{
+    color:white;
+}
+.year{
+    padding: 1px 10px;
+    border:2.5px solid dodgerblue;
+    border-radius: 20px;
+    margin-right: 1rem;
+    width:fit-content;
+    height:fit-content;
+    z-index: 1;
+    background-color: #222;
+}
+.edu-card{
+    color:white;
+    
+}
+.vertical-line{
+    height:10rem;
+    border-left: 1.35px solid dodgerblue;
+    padding:0;
+    margin: 0;
+    position: relative;
+    left:2rem;
+    
+}
+/* Skills */
+
+.skills{
+    color:white;
+}
+.skills>h4>span{
+    color:dodgerblue;
+}
+@media (max-width:900px){
+    .education{
+        margin-left: -8rem;
+    }
+    .Resume>h2{
+        margin-left: -8rem;
+    }
+    .vertical-line{
+        height:14.4rem;
+    }
+    .vertical-line-last{
+        height:10rem;
+    }
+    .skills{
+        margin-left: -8rem;
+    }
+    .skill-bars{
+        margin-left: 2rem;
+        
+       text-align: center;
+    }
+
+}

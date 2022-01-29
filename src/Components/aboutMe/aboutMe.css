@@ -1,0 +1,124 @@
+/* What i Do */
+.what-i-do {
+  width: 100vw;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+.what-i-do > span {
+  color: dodgerblue;
+}
+.fact-heading {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.fact-heading > span {
+  color: dodgerblue;
+}
+.abt-icons {
+  font-size: 32px;
+  margin-bottom: 0.65rem;
+  color: dodgerblue;
+}
+.what-i-do-title {
+  font-size: 17.5px;
+  font-weight: 900;
+  color: white;
+}
+.what_i_do_back {
+  background-color: #222;
+  padding: 0 10rem;
+}
+.para {
+  color: white;
+}
+/* Hero */
+.hero {
+  width: 100vw;
+  background-color: #222;
+  /* height: 100%; */
+  margin-top: 10rem;
+  margin-bottom: 7rem;
+}
+.hero-button {
+  border-radius: 30px !important;
+  padding: 8px 20px !important;
+}
+.picture {
+  border: 18px solid darkgray;
+  margin-right: 1.5rem;
+}
+/* fun facts */
+.fun-facts {
+  width: 100vw;
+  padding: 1.5rem 10rem 3rem 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+.fact {
+  margin-right: 1rem;
+  height: 9rem;
+  width: 16rem;
+  background-color: #333;
+  border-radius: 12px;
+  padding: 30px 15px;
+  text-align: center;
+  box-shadow: -2px 4.5px 21px -7px rgba(0, 0, 0, 0.7);
+}
+.fact > i {
+  font-size: 30px;
+  color: dodgerblue;
+}
+.fact > div {
+  margin-top: 12px;
+  font-size: 20px;
+  color: whitesmoke;
+}
+/* for mobile responsive */
+@media only screen and (max-width: 1024px) {
+  .profile-bio{
+    margin-left: 10rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .for-image {
+    text-align: center;
+    margin-top: -8rem;
+  }
+  .sub-heading {
+    text-align: center;
+  }
+  .myName {
+    text-align: center;
+  }
+  .myInfo {
+    text-align: center;
+    width: 450px;
+  }
+  .blue-btns {
+    text-align: center;
+  }
+  .what_i_do_back {
+    margin-left: -8rem;
+    width: 800px;
+  }
+  .game-dev {
+    margin-left: -2rem;
+  }
+  .what-i-do {
+    margin-left: -5re;
+  }
+  .fact-heading {
+    margin-left: -8rem;
+  }
+  .fun-facts {
+    margin-left: -3rem;
+    display: list-item;
+  }
+  .fact {
+    margin-bottom: 2rem;
+  }
+}

@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+.links {
+  margin: 1rem;
+  font-size: 18px;
+}
+.navbar-color {
+  width: 100%;
+  background-color: #222;
+}
+.logo {
+  font-size: 26px !important;
+}
+.sname {
+  color: dodgerblue;
+}
+.links:hover {
+  color: dodgerblue !important;
+}
+@media only screen and (max-width: 1024px) {
+  #basic-navbar-nav {
+    margin-left: 20rem;
+  }
+}
